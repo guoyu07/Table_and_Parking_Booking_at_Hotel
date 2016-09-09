@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Table and Parking Booking at Hotel</string>
+    <string name="title_activity_login">Sign in</string>
+
+
+    <string name="long_text">Search Results
+Android Splash Screen Example Using Android Studio - CodeRefer
+www.coderefer.com/android-splash-screen-example-tutorial/
+Feb 13, 2015 - Android Splash Screen Tutorial - Here we discuss how to implement Android Splash Screen Example using New Android Studio 1.1. Android ...
+android - How do I make a splash screen? - Stack Overflow
+stackoverflow.com/questions/5486789/how-do-i-make-a-splash-screen
+Mar 30, 2011 - HOW TO: Simple splash screen. This answers shows you how to just display a ..... The fastest way is to open the Memory tab in Android Studio and pay attention to allocated memory as you change the orientation.
+How To Create Splash Screen In Android - YouTube
+Video for splash screen android studio
+▶ 11:05
+https://www.youtube.com/watch?v=XwOuTjUFexE
+Feb 25, 2015 - Uploaded by Filip Vujovic
+How To Create Splash Screen In Android .... extend AppCompactActivity instead of Activity,for new android ...
+Android Splash Screen Tutorial Using Android Studio – Android ...
+www.android-development-tutorial.net › Android Development Tutorials
+Nov 27, 2015 - In this tutorial, we are going to create splash startup screen using android studio. Have you ever wondered how does splash screen appears ...
+How to implement Android Splash Screen - Androidhive
+www.androidhive.info › Async
+Jul 7, 2013 - Tutorial about implementing android splash screen in your application. Explained usage of splash screen on two use case scenarios. Splash ...
+Creating a Splash Screen - Xamarin
+https://developer.xamarin.com/guides/android/user.../creating_a_splash_screen/
+An Android app takes some time to to start up, especially when the app is first launched on a device. A splash screen may display start up progress to the user or ...
+Splash Screens the Right Way | Big Nerd Ranch
+https://www.bignerdranch.com/blog/splash-screens-the-right-way/
+Aug 27, 2015 - Chris Stewart shows you the right way to implement a splash screen in your Android app.
+Android Splash Screen Tutorial - AndroidSRC
+androidsrc.net/implement-android-splash-screen/
+Feb 5, 2015 - Android splash screen is used so that apps can show their brand icons before showing the content of app. ... In this tutorial we are going to learn how to implement splash screen in your android application. .... android studio.
+How to create android splash screen - ITCuties.com
+www.itcuties.com/android/how-to-create-android-splash-screen/
+Jul 26, 2012 - Idea of android splash screen implementation is to start ac
+    Search Results
+Android Splash Screen Example Using Android Studio - CodeRefer
+www.coderefer.com/android-splash-screen-example-tutorial/
+Feb 13, 2015 - Android Splash Screen Tutorial - Here we discuss how to implement Android Splash Screen Example using New Android Studio 1.1. Android ...
+android - How do I make a splash screen? - Stack Overflow
+stackoverflow.com/questions/5486789/how-do-i-make-a-splash-screen
+Mar 30, 2011 - HOW TO: Simple splash screen. This answers shows you how to just display a ..... The fastest way is to open the Memory tab in Android Studio and pay attention to allocated memory as you change the orientation.
+How To Create Splash Screen In Android - YouTube
+Video for splash screen android studio
+▶ 11:05
+https://www.youtube.com/watch?v=XwOuTjUFexE
+Feb 25, 2015 - Uploaded by Filip Vujovic
+How To Create Splash Screen In Android .... extend AppCompactActivity instead of Activity,for new android ...
+Android Splash Screen Tutorial Using Android Studio – Android ...
+www.android-development-tutorial.net › Android Development Tutorials
+Nov 27, 2015 - In this tutorial, we are going to create splash startup screen using android studio. Have you ever wondered how does splash screen appears ...
+How to implement Android Splash Screen - Androidhive
+www.androidhive.info › Async
+Jul 7, 2013 - Tutorial about implementing android splash screen in your application. Explained usage of splash screen on two use case scenarios. Splash ...
+Creating a Splash Screen - Xamarin
+https://developer.xamarin.com/guides/android/user.../creating_a_splash_screen/
+An Android app takes some time to to start up, especially when the app is first launched on a device. A splash screen may display start up progress to the user or ...
+Splash Screens the Right Way | Big Nerd Ranch
+https://www.bignerdranch.com/blog/splash-screens-the-right-way/
+Aug 27, 2015 - Chris Stewart shows you the right way to implement a splash screen in your Android app.
+Android Splash Screen Tutorial - AndroidSRC
+androidsrc.net/implement-android-splash-screen/
+Feb 5, 2015 - Android splash screen is used so that apps can show their brand icons before showing the content of app. ... In this tutorial we are going to learn how to implement splash screen in your android application. .... android studio.
+How to create android splash screen - ITCuties.com
+www.itcuties.com/android/how-to-create-android-splash-screen/
+Jul 26, 2012 - Idea of android splash screen implementation is to start ac</string>
+</resources>
