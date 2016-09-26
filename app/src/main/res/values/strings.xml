@@ -65,4 +65,13 @@ Feb 5, 2015 - Android splash screen is used so that apps can show their brand ic
 How to create android splash screen - ITCuties.com
 www.itcuties.com/android/how-to-create-android-splash-screen/
 Jul 26, 2012 - Idea of android splash screen implementation is to start ac</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
