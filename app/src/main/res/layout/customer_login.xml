@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     android:background="@drawable/login_page_image"
-    tools:context="com.example.root.tableandparkingbookingathotel.MainActivity">
+    tools:context=".CustomerLogin">
 
     <LinearLayout
         android:layout_width="wrap_content"

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Table_and_Parking_Booking.iml" filepath="$PROJECT_DIR$/Table_and_Parking_Booking.iml" />
       <module fileurl="file://$PROJECT_DIR$/Table_and_Parking_Booking_at_Hotel.iml" filepath="$PROJECT_DIR$/Table_and_Parking_Booking_at_Hotel.iml" />
       <module fileurl="file://$PROJECT_DIR$/TableandParkingBookingatHotel.iml" filepath="$PROJECT_DIR$/TableandParkingBookingatHotel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

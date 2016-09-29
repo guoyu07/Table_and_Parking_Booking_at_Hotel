@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".HotelOrCust"
             android:label="Hotel and Parking Booking">
             <intent-filter>
                 <action android:name="com.example.root.tableandparkingbookingathotel.Main" />
@@ -31,16 +31,20 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".HomePage" />
+        <activity android:name=".CustomerLogin" />
         <activity
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".CustomerLogin"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.root.tableandparkingbookingathotel.MainActivity" />
+                android:value=".CustomerLogin" />
         </activity>
+        <activity android:name=".HomePage" />
+        <activity
+            android:name=".HotelLogin"
+            android:label="@string/title_activity_hotel_login"></activity>
     </application>
 
 </manifest>
