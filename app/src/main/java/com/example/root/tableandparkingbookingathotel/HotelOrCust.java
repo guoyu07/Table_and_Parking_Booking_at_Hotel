@@ -40,5 +40,19 @@ public class HotelOrCust extends AppCompatActivity {
                     }
                 }
         );
+
+        Button newacti = (Button) findViewById(R.id.newacti);
+        newacti.setOnClickListener(
+                new View.OnClickListener()
+                {
+                    @Override
+                    public void onClick(View view)
+                    {
+
+                        Intent intent = new Intent(findViewById(R.id.newacti).getContext(),HotelAvail.class);
+                        startActivity(intent);
+                    }
+                }
+        );
     }
 }
