@@ -3,6 +3,7 @@ package com.example.root.tableandparkingbookingathotel;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -128,8 +129,10 @@ public class HotelAvail extends AppCompatActivity {
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-
-                        showJSON(response);
+                        Log.v("Response",response);
+                        String str[]=response.split(";;");
+                        showJSON(str[str.length-1]);
+                        //showJSON(response);
                     }
                 },
                 new Response.ErrorListener() {

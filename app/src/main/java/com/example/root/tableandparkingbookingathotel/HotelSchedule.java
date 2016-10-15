@@ -1,12 +1,9 @@
 package com.example.root.tableandparkingbookingathotel;
 
-import android.content.Intent;
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
-import android.view.View;
-import android.widget.Button;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
@@ -18,49 +15,53 @@ public class HotelSchedule extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hotel_schedule);
 
-        Button HotelAvail = (Button) findViewById(R.id.button1);
-        HotelAvail.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-
-                        Intent intent = new Intent(findViewById(R.id.button1).getContext(), HotelAvail.class);
-                        startActivity(intent);
-                    }
-                }
-        );
-        Button HotelBook = (Button) findViewById(R.id.button2);
-        HotelBook.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-
-                        Intent intent = new Intent(findViewById(R.id.button2).getContext(), HotelBook.class);
-                        startActivity(intent);
-                    }
-                }
-        );
+//        Button HotelAvail = (Button) findViewById(R.id.button1);
+//        HotelAvail.setOnClickListener(
+//                new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View view) {
+//
+//                        Intent intent = new Intent(findViewById(R.id.button1).getContext(), HotelAvail.class);
+//                        startActivity(intent);
+//                    }
+//                }
+//        );
+//        Button HotelBook = (Button) findViewById(R.id.button2);
+//        HotelBook.setOnClickListener(
+//                new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View view) {
+//
+//                        Intent intent = new Intent(findViewById(R.id.button2).getContext(), HotelBook.class);
+//                        startActivity(intent);
+//                    }
+//                }
+//        );
         init();
     }
     public void init() {
         TableLayout stk = (TableLayout) findViewById(R.id.table);
         TableRow tbrow0 = new TableRow(this);
         TextView tv0 = new TextView(this);
-        tv0.setText(" Sl.No ");
+        tv0.setText(" Table NO ");
         tv0.setTextColor(Color.WHITE);
         tbrow0.addView(tv0);
         TextView tv1 = new TextView(this);
-        tv1.setText(" Product ");
+        tv1.setText(" Customer Name ");
         tv1.setTextColor(Color.WHITE);
         tbrow0.addView(tv1);
         TextView tv2 = new TextView(this);
-        tv2.setText(" Unit Price ");
+        tv2.setText(" Check In ");
         tv2.setTextColor(Color.WHITE);
         tbrow0.addView(tv2);
         TextView tv3 = new TextView(this);
-        tv3.setText(" Stock Remaining ");
+        tv3.setText(" Check Out ");
         tv3.setTextColor(Color.WHITE);
         tbrow0.addView(tv3);
+        TextView tv4 = new TextView(this);
+        tv4.setText(" Parking ");
+        tv4.setTextColor(Color.WHITE);
+        tbrow0.addView(tv4);
         stk.addView(tbrow0);
         for (int i = 0; i < 12; i++) {
             TableRow tbrow = new TableRow(this);
