@@ -35,4 +35,14 @@
         android:layout_below="@+id/hotel_login_button"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="47dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hvkev"
+        android:id="@+id/prithvi"
+        android:layout_below="@+id/newacti"
+        android:layout_alignLeft="@+id/customer_login_button"
+        android:layout_alignStart="@+id/customer_login_button"
+        android:layout_marginTop="51dp" />
 </RelativeLayout>

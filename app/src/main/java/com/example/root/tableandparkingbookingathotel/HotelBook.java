@@ -13,27 +13,17 @@ public class HotelBook extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hotel_book);
 
-        Button HotelSchedule = (Button) findViewById(R.id.button1);
-        HotelSchedule.setOnClickListener(
+        Button submit_offer = (Button) findViewById(R.id.submit_offer);
+        submit_offer.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
 
-                        Intent intent = new Intent(findViewById(R.id.button1).getContext(), HotelSchedule.class);
+                        Intent intent = new Intent(findViewById(R.id.submit_offer).getContext(), HotelSchedule.class);
                         startActivity(intent);
                     }
                 }
         );
-        Button HotelBook = (Button) findViewById(R.id.button2);
-        HotelBook.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
 
-                        Intent intent = new Intent(findViewById(R.id.button2).getContext(), HotelBook.class);
-                        startActivity(intent);
-                    }
-                }
-        );
     }
 }

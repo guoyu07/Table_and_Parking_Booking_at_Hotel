@@ -34,7 +34,7 @@
         </activity>
         <activity android:name=".CustomerLogin" />
         <activity
-            android:name=".Main2Activity"
+            android:name=".HotelHome"
             android:label="@string/title_activity_main2"
             android:parentActivityName=".CustomerLogin"
             android:theme="@style/AppTheme.NoActionBar">
@@ -49,7 +49,10 @@
         <activity android:name=".SignUp" />
         <activity android:name=".HotelAvail" />
         <activity android:name=".HotelSchedule" />
-        <activity android:name=".HotelBook"></activity>
+        <activity android:name=".HotelBook" />
+        <activity android:name=".HotelSignUp" />
+        <activity android:name=".CustomerHome" />
+        <activity android:name=".HotelDetails"></activity>
     </application>
 
 </manifest>

@@ -15,51 +15,38 @@
         android:id="@+id/l1"
         android:padding="10dp">
         <TextView
+            android:textSize="22dp"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Today's Offer : "/>
 
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l1"
+        android:id="@+id/l2">
+
         <EditText
-            android:layout_weight="8"
-            android:layout_width="wrap_content"
+            android:id="@+id/offer_text"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_below="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
         <Button
+            android:id="@+id/submit_offer"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Submit"/>
 
     </LinearLayout>
-    <LinearLayout
-        android:id="@+id/l2"
-        android:layout_below="@+id/l1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="10dp">
-        <Button
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:id="@+id/button1"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_width="match_parent"
-            android:layout_gravity="bottom"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
-        <Button
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:layout_gravity="bottom"
-            android:layout_weight="1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:id="@+id/button2"
-            android:layout_alignTop="@+id/button"
-            android:layout_toRightOf="@+id/button"
-            android:layout_toEndOf="@+id/button" />
-    </LinearLayout>
 
 </RelativeLayout>

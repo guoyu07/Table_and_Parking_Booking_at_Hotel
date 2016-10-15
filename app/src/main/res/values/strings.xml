@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Table and Parking Booking at Hotel</string>
     <string name="title_activity_login">Sign in</string>
+    <string name="backdrop_title">Hotel Table Booking</string>
+    <string name="backdrop_subtitle">Book Now</string>
 
 
     <string name="long_text">Search Results

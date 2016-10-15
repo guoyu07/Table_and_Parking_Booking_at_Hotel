@@ -140,7 +140,7 @@ public class CustomerLogin extends AppCompatActivity {
             userEmail = email.getText().toString();
 
             //prithvi add activit here
-            Intent intent = new Intent(findViewById(R.id.SignIn).getContext(),Main2Activity.class);
+            Intent intent = new Intent(findViewById(R.id.SignIn).getContext(),HotelHome.class);
             //send the email add to nxt activity
             intent.putExtra("emailInput",userEmail);
 

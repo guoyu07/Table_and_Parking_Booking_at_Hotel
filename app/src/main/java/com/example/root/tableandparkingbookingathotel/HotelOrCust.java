@@ -49,7 +49,20 @@ public class HotelOrCust extends AppCompatActivity {
                     public void onClick(View view)
                     {
 
-                        Intent intent = new Intent(findViewById(R.id.newacti).getContext(),HotelAvail.class);
+                        Intent intent = new Intent(findViewById(R.id.newacti).getContext(),HotelHome.class);
+                        startActivity(intent);
+                    }
+                }
+        );
+        Button custhome = (Button) findViewById(R.id.prithvi);
+        custhome.setOnClickListener(
+                new View.OnClickListener()
+                {
+                    @Override
+                    public void onClick(View view)
+                    {
+
+                        Intent intent = new Intent(findViewById(R.id.prithvi).getContext(),CustomerHome.class);
                         startActivity(intent);
                     }
                 }

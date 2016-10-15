@@ -17,23 +17,6 @@ android:layout_height="match_parent"
 tools:context="com.example.root.tableandparkingbookingathotel.MainFragment">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Enter No Of Total Tables :"
-        android:id="@+id/textView"
-        android:layout_marginTop="107dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
 
-    <Spinner
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/spinner"
-        android:layout_below="@+id/textView"
-        android:layout_alignLeft="@+id/textView"
-        android:layout_alignStart="@+id/textView"
-        android:layout_marginTop="56dp" />
 
 </RelativeLayout>
